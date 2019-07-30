@@ -50,8 +50,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'dogpile.core'
-copyright = u'2011-2013 Mike Bayer'
+project = 'dogpile.core'
+copyright = '2011-2013 Mike Bayer'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -186,8 +186,8 @@ htmlhelp_basename = 'dogpile.coredoc'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'dogpile.core.tex', u'dogpile.core Documentation',
-   u'Mike Bayer', 'manual'),
+  ('index', 'dogpile.core.tex', 'dogpile.core Documentation',
+   'Mike Bayer', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
