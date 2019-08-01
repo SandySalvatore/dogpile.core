@@ -116,7 +116,7 @@ class Lock(object):
         if not self._is_expired(createdtime):
             return NOT_REGENERATED
 
-        async = False
+        async_ = False
 
         if self._has_value(createdtime):
             if not self.mutex.acquire(False):
@@ -142,14 +142,14 @@ class Lock(object):
                 elif self.async_creator:
                     log.debug("Passing creation lock to async runner")
                     self.async_creator(self.mutex)
-                    async = True
+                    async_ = True
                     return value, createdtime
 
             log.debug("Calling creation function")
             created = self.creator()
             return created
         finally:
-            if not async:
+            if not async_:
                 self.mutex.release()
                 log.debug("Released creation lock")
 

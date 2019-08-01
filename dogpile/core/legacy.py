@@ -1,5 +1,6 @@
 
 
+from __future__ import with_statement
 from .util import threading
 from .readwrite_lock import ReadWriteMutex
 from .dogpile import Lock
