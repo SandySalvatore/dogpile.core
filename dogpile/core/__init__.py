@@ -7,5 +7,5 @@ __all__ = [
         'Dogpile', 'SyncReaderDogpile', 'NeedRegenerationException',
         'NameRegistry', 'ReadWriteMutex', 'Lock']
 
-__version__ = '0.4.1'
+__version__ = '0.4.2'
 
