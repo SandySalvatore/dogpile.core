@@ -1,6 +1,6 @@
 Metadata-Version: 1.1
 Name: dogpile.core
-Version: 0.4.1
+Version: 0.4.2
 Summary: A 'dogpile' lock, typically used as a component of a larger caching solution
 Home-page: http://bitbucket.org/zzzeek/dogpile.core
 Author: Mike Bayer
